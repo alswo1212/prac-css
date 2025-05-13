@@ -16,6 +16,8 @@ const ListWrap = styled.div`
   padding-left: 15px;
   width: 633px;
   overflow: hidden;
+  overflow-x: auto;
+  scrollbar-width: none;
 `;
 
 const ListUl = styled.ul`
@@ -36,6 +38,7 @@ const OptionIconWrap = styled.div`
   height: 36px;
   display: flex;
   justify-content: center;
+  align-items: center;
   &:hover {
     background: rgba(0, 0, 0, 0.05);
     border-radius: 50%;
