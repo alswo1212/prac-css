@@ -34,17 +34,6 @@ const Test = styled.div`
   margin-bottom: 24px;
 `;
 
-const TestFrame = styled.div`
-  height: 300px;
-  border-radius: 15px;
-  overflow: hidden;
-  border: 1px solid #eee;
-`;
-
-const PaddingFrame = styled.div`
-  padding: 0 15px;
-`;
-
 export default function SearchResult() {
   const cardDatas = [
     {
@@ -163,6 +152,23 @@ export default function SearchResult() {
     //     },
     //   ],
     // },
+    {
+      cardType: "image",
+      isSearchMore: true,
+      titleVisiable: true,
+      contents: [
+        { bg: "red" },
+        { bg: "orange" },
+        { bg: "yellow" },
+        { bg: "green" },
+        { bg: "blue" },
+        { bg: "aqua" },
+        { bg: "tomato" },
+        { bg: "lightgray" },
+        { bg: "pink" },
+        { bg: "" },
+      ],
+    },
   ];
 
   return (
