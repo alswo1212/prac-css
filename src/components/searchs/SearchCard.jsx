@@ -25,6 +25,7 @@ const CartTile = styled.div`
 const ImageReport = styled.span`
   color: #aaa;
   font-size: 13px;
+  cursor: pointer;
 `;
 const typeThan = {
   news: {
@@ -37,7 +38,7 @@ const typeThan = {
   },
   image: {
     name: "이미지",
-    side: <ImageReport>이미지 신고하기기</ImageReport>,
+    side: <ImageReport>이미지 신고하기</ImageReport>,
   },
 };
 const MoreSearch = styled.div`

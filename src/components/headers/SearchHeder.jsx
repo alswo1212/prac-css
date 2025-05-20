@@ -3,6 +3,7 @@ import HeaderLoginButton from "@components/buttons/HeaderLoginButton";
 import { iconDatas, commonIconUrl } from "@consts/iconData";
 import IconButton from "@components/buttons/IconButton";
 import Search from "@components/searchs/Search";
+import CheckButton from "@components/buttons/CheckButton";
 
 const Header = styled.header`
   min-width: 1160px;
@@ -35,6 +36,7 @@ export default function SearchHeader() {
         <Search />
       </HeaderSection>
       <HeaerBtnWrap>
+        <CheckButton>색 바뀌는 버튼</CheckButton>
         <HeaderLoginButton />
         <IconButton iconData={iconDatas.allService} url={commonIconUrl} />
       </HeaerBtnWrap>
